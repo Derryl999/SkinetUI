@@ -1,0 +1,9 @@
+// .list-group-item:hover {
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Customize the shadow as needed */
+//     transition: box-shadow 0.3s ease-in-out; 
+// }
+
+.list-group-item:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Customize the background color as needed */
+    transition: background-color 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
