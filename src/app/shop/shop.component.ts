@@ -35,6 +35,7 @@ export class ShopComponent implements OnInit {
         this.totalCount = response.count;
         this.shopParams.pageNumber = response.pageIndex;
         this.shopParams.pagesize = response.pageSize;
+        console.log(response)
       },
       error: (error) => console.log(error),
       complete: () => console.log('completed'),
