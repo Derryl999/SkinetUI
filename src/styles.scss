@@ -5,3 +5,10 @@
 
 /* Importing Datepicker SCSS file. */
 @import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+@import "node_modules/bootswatch/dist/united/_variables";
+@import "node_modules/bootswatch/dist/united/bootstrap";
+@import "node_modules/bootswatch/dist/united/bootswatch";
+
+label.xng-breadcrumb-trail {
+  color: orange;
+}
